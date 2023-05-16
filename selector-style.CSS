@@ -1,0 +1,42 @@
+/* Selector css menggunakan elemen html */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* jika sebuah style berlaku untuk 2 elemen dapat menggunakan 2 saparator "," artinya AND */
+h1, h2 {
+    color: green;
+}
+
+/* jika elemen yang sama ingin menggunakan style yang berbeda gunaka  sparator "<spasi>" artinya DIDALAM */
+ul li a {
+    color: aqua;
+}
+
+ol li a {
+    color: blueviolet;
+}
+
+/*  penggunaan id (dipanggil dengan "#" ) dan class (dipanggil dengn ".")
+sebagai selector dalam elemen HTML */
+
+#p1 {
+    color: rebeccapurple; 
+
+}
+
+.p2 {
+    color: burlywood;
+}
+
+/* membuat class custom pada elemen HTML */
+p.cetak-tebal {
+    font-weight: bold;
+}
+
+p.cetak-tebal {
+    font-size: xx-small;
+}
+
+
+
